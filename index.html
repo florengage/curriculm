@@ -16,44 +16,47 @@
     <title>curriculum vitae</title>
 </head>
 <body>
-    <div class="container">
-      <h1  id="titulo">CURRICULUM VITAE</h1>
-    </div>
-
-    <div class="container">
+    <!--carta de presentacion + foto-->
+ <div class="row">
+    <div class="col">
          <img id="mifoto" src="https://randomuser.me/api/portraits/women/33.jpg" alt="no se puede visualizar la imagen">
-
-       
-         <p id="presentacion">mi nombre es ... ... .. . . y este es mi curriculum vitae</p>
-
     </div>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">INFO PERSONAL</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                 CONOCIMIENTOS
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">EDUCACION</a></li>
-                  <li><a class="dropdown-item" href="#">EXP. LABORAL</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">CONTACTOS</a>
-              </li>
+    <div class="col">    
+         <h1 id="presentacion">.-mi nombre es paulina rodriguez y este es mi curriculum vitae-.</h1>
+    </div>
+</div>
+
+ <!-- barra de navegacion-->
+ <nav id="menu" class="navbar navbar-expand-lg bg-body-dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">INFO PERSONAL</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             CONOCIMIENTOS
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">EDUCACION</a></li>
+              <li><a class="dropdown-item" href="#">EXP. LABORAL</a></li>
+              <li><hr class="dropdown-divider"></li>
             </ul>
-          </div>
-        </div>
-      </nav>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">CONTACTO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">REDES</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
    <div class="desplegables" id="contenedor-info">
      <li>nombre completo:</li>
