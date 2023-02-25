@@ -7,18 +7,14 @@ body{
     background: linear-gradient(135deg, #2DDDD7 0%, #EC8C11 100%);
 }
 
-#menu {
-bbackground: #EC8C11;
-background: -moz-linear-gradient(-45deg, #EC8C11 0%, #2dddd7 100%);
-background: -webkit-linear-gradient(-45deg, #EC8C11 0%, #2dddd7 100%);
-background: linear-gradient(135deg, #EC8C11 0%, #2dddd7 100%);
--webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.67); 
-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.67);
+#contenedordefoto {
+    background-image: url("https://elviajerofeliz.com/wp-content/uploads/2015/09/paisajes-de-Canada.jpg");
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+     box-shadow: 5px 5px 15px 5px #000000;
 }
 
 #mifoto {
     margin: 10px;
-    border: 10px solid #000000;
     -webkit-border-radius: 90px;
     border-radius: 90px;
     -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.67); 
@@ -45,4 +41,28 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.67);
     box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.67);
     -webkit-border-radius: 14px;
     border-radius: 14px;
+    position: fixed;
+}
+#menu {
+    background: #EC8C11;
+    background: -moz-linear-gradient(-45deg, #EC8C11 0%, #2dddd7 100%);
+    background: -webkit-linear-gradient(-45deg, #EC8C11 0%, #2dddd7 100%);
+    background: linear-gradient(135deg, #EC8C11 0%, #2dddd7 100%);
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.67); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.67);
+    }
+    
+
+.contenedores{
+    background:#FF813E; 
+    color:white; 
+    font-weight:bold; 
+    padding:40px;
+    border:3px solid #B34F19; 
+    margin-top:80px; 
+    margin-bottom:80px; 
+    text-align:center; 
+    font-size:22px;
+    border-radius:10px;
+
 }
