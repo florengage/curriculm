@@ -1,20 +1,27 @@
 
-
 body{
-    background: #2DDDD7;
-    background: -moz-linear-gradient(-45deg, #2DDDD7 0%, #EC8C11 100%);
-    background: -webkit-linear-gradient(-45deg, #2DDDD7 0%, #EC8C11 100%);
-    background: linear-gradient(135deg, #2DDDD7 0%, #EC8C11 100%);
+    background: #EC8C11;
+    background: -moz-linear-gradient(-45deg, #EC8C11 0%, #2dddd7 100%);
+    background: -webkit-linear-gradient(-45deg, #EC8C11 0%, #2dddd7 100%);
+    background: linear-gradient(135deg, #EC8C11 0%, #2dddd7 100%);
+}
+#fondo2 {
+    background-color: #e5e5f7;
+opacity: 1;
+background-image: radial-gradient(#808080 1.2000000000000002px, #e5e5f7 1.2000000000000002px);
+background-size: 24px 24px;
 }
 
 #contenedordefoto {
+    opacity: 1;
     background-image: url("https://elviajerofeliz.com/wp-content/uploads/2015/09/paisajes-de-Canada.jpg");
     -webkit-box-shadow: 5px 5px 15px 5px #000000; 
      box-shadow: 5px 5px 15px 5px #000000;
+     margin: 10px;
 }
 
 #mifoto {
-    margin: 10px;
+  margin: 10px;
     -webkit-border-radius: 90px;
     border-radius: 90px;
     -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.67); 
@@ -25,23 +32,21 @@ body{
 
 
 #presentacion{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 10px;
+    float: right;
     padding: 10px;
-    background-color: #ECE38E;
-    font-family: Georgia, serif;
-    font-size: 30px;
+    background-color: white;
+    font-size: 60px;
     letter-spacing: 2px;
     word-spacing: 6px;
     color: #000000;
-    font-weight: 400;
     text-decoration: none;
-    font-style: italic;
-    font-variant: normal;
     text-transform: none;
     -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.67); 
     box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.67);
-    -webkit-border-radius: 14px;
-    border-radius: 14px;
-    position: fixed;
+    border-radius:10px;
 }
 #menu {
     background: #EC8C11;
@@ -54,11 +59,11 @@ body{
     
 
 .contenedores{
-    background:#FF813E; 
-    color:white; 
+    background:white; 
+    color:darkgray; 
     font-weight:bold; 
     padding:40px;
-    border:3px solid #B34F19; 
+    border:3px solid #166e6b; 
     margin-top:80px; 
     margin-bottom:80px; 
     text-align:center; 
