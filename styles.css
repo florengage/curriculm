@@ -38,7 +38,7 @@ background-size: 24px 24px;
     float: right;
     padding: 10px;
     background-color: white;
-    font-size: 60px;
+    font-size: 30px;
     letter-spacing: 2px;
     word-spacing: 6px;
     color: #000000;
@@ -71,3 +71,19 @@ background-size: 24px 24px;
     border-radius:10px;
 
 }
+
+.boton-mostrar {
+    text-decoration: none;
+    color: darkslategray;
+}
+
+.seccion-oculta{
+    list-style:none;
+    position:relative;
+    background-color: #000000;
+    --clip: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+
+/*.seccion-oculta:hover {
+    --clip: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}*/
