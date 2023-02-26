@@ -1,12 +1,13 @@
 
 body{
+    font-family: 'Montserrat', sans-serif;
     background: #EC8C11;
     background: -moz-linear-gradient(-45deg, #EC8C11 0%, #2dddd7 100%);
     background: -webkit-linear-gradient(-45deg, #EC8C11 0%, #2dddd7 100%);
     background: linear-gradient(135deg, #EC8C11 0%, #2dddd7 100%);
 }
 #fondo2 {
-    background-color: #e5e5f7;
+background-color: #e5e5f7;
 opacity: 1;
 background-image: radial-gradient(#808080 1.2000000000000002px, #e5e5f7 1.2000000000000002px);
 background-size: 24px 24px;
@@ -32,7 +33,6 @@ background-size: 24px 24px;
 
 
 #presentacion{
-    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     margin: 10px;
     float: right;
@@ -49,19 +49,25 @@ background-size: 24px 24px;
     border-radius:10px;
 }
 #menu {
+    font-weight: bold;
     background: #EC8C11;
     background: -moz-linear-gradient(-45deg, #EC8C11 0%, #2dddd7 100%);
     background: -webkit-linear-gradient(-45deg, #EC8C11 0%, #2dddd7 100%);
     background: linear-gradient(135deg, #EC8C11 0%, #2dddd7 100%);
     -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.67); 
     box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.67);
+    margin-bottom: 50px;
     }
     
+.contenedor-externo{
+    background-color: transparent;
+    position: relative;
+}
 
 .contenedores{
-    background:white; 
-    color:darkgray; 
-    font-weight:bold; 
+    background-color: white;
+    color:black; 
+    font-weight:bold;
     padding:40px;
     border:3px solid #166e6b; 
     margin-top:80px; 
@@ -69,21 +75,46 @@ background-size: 24px 24px;
     text-align:center; 
     font-size:22px;
     border-radius:10px;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.67);
+    list-style: none;
+    text-align: left;
+    position: relative;
+
+
 
 }
+ul{
+    list-style: none;
+}
 
-.boton-mostrar {
+.linea {
+    border-left: 5px solid  #166e6b;
+    height: 80%;
+    position: absolute;
+    left: 4%;
+    top: 30px;
+}
+
+.botones{
+    color: black;
+    background: #EC8C11;
+    background: -moz-linear-gradient(-45deg, #EC8C11 0%, #2dddd7 100%);
+    background: -webkit-linear-gradient(-45deg, #EC8C11 0%, #2dddd7 100%);
+    background: linear-gradient(135deg, #EC8C11 0%, #2dddd7 100%);
+    font-size: 20px; 
+    line-height: 20px; 
+    padding: 20px; 
+    border-radius: 10px;
+    font-weight: normal; 
     text-decoration: none;
-    color: darkslategray;
-}
+    font-weight: bold;
+    box-shadow: black 5px 5px 15px 5px;
+     border: 2px solid #2dddd7; 
+     display: inline-block;}
 
-.seccion-oculta{
-    list-style:none;
-    position:relative;
-    background-color: #000000;
-    --clip: polygon(0 0, 100% 0, 100% 0, 0 0);
-}
+.botones:hover {
+        background: #2dddd7; }
 
-/*.seccion-oculta:hover {
-    --clip: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-}*/
+
+
+   
