@@ -18,7 +18,7 @@
 
 
 <body>
-  <div class="container" id="fondo2">
+  <div id="fondo2" class="container" >
 
     <!--carta de presentacion + foto-->
  <div class="container-fluid">
@@ -32,7 +32,7 @@
 
  <nav id="menu" class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">REDES</a>
+    <h1 class="navbar-brand">REDES</h1>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -43,8 +43,8 @@
         <li class="nav-item"><a class="nav-link" href="https://ar.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
         <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
         <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-envelope"></i></a></li>
-      </ul>
-     </div>
+        <button id="hace-click-btn" class="btn btn-outline-success" type="submit">¡hacé click!</button>
+    </div>
     </div>
   </div>
 </nav>
@@ -127,7 +127,10 @@
   </div>
 </div>
 
-<div class="container">
+<!--formulario simple de contacto-->
+
+<div id="formulario" class="container">
+  <h1 id="titulo-formulario">contáctame!</h1>
    <form action="/enviar-mensaje" method="POST">
       <label for="nombre">Nombre:</label><br />
       <input type="text" id="nombre" name="nombre" /><br />
@@ -138,10 +141,12 @@
       <input type="submit" value="Enviar mensaje" />
    </form>
 </div>
+
 <footer>
     <h3>frase de despedida</h3>
 </footer>
-</div>
+
+
     <script src="https://kit.fontawesome.com/ff01108341.js" crossorigin="anonymous"></script>
     <script src="/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
