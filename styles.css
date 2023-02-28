@@ -16,7 +16,7 @@ background-size: 24px 24px;
 
 #contenedordefoto {
     opacity: 1;
-    background-image: url("https://elviajerofeliz.com/wp-content/uploads/2015/09/paisajes-de-Canada.jpg");
+    background-image: url("https://thumbs.dreamstime.com/b/c%C3%B3digo-del-html-20580858.jpg");
     -webkit-box-shadow: 5px 5px 15px 5px #000000; 
      box-shadow: 5px 5px 15px 5px #000000;
      margin: 10px;
@@ -56,6 +56,7 @@ i {
     color: black;
     font-size:x-large;
     margin-left: 5px;
+    margin-right: 2px;
 
 }
 
@@ -74,6 +75,7 @@ i:hover {
 
 
     #hace-click-btn {
+        margin-left: 700px;
         color: #000000;
         font-weight: bold;
     }
@@ -139,10 +141,6 @@ ul{
 
 
         #formulario {
-
-            margin:0 auto;
-            background: linear-gradient(135deg, #EC8C11 0%, #2dddd7 100%);
-            font-weight: bold;
         }
         #titulo-formulario{
             font-weight: bold;
@@ -150,7 +148,9 @@ ul{
         }
 
  form {
-    width: 500px;
+    background: linear-gradient(135deg, #EC8C11 0%, #2dddd7 100%);
+    font-weight: bold;
+    width: 300px;
     margin: 0 auto;
     text-align: left;
     padding: 20px;
@@ -189,6 +189,21 @@ input[type="submit"] {
             background-color: #166e6b;
           }
 
+footer{
+    margin-top: 100px;
+    font-weight: bold;
+    margin: 10px;
+    float: right;
+    padding: 10px;
+    background-color: white;
+    font-size: 30px;
+    letter-spacing: 2px;
+    word-spacing: 6px;
+    color: #000000;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.67); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.67);
+    border-radius:10px;
+}
 
 
    
